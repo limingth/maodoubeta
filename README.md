@@ -1,4 +1,4 @@
-maodoubeta
-==========
+hackthenorth-ios
+================
 
-maodou app beta version 
+Hack the North iOS App
