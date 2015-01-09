@@ -1,4 +1,7 @@
-hackthenorth-ios
-================
+a beta test of maodou app using RESTful api
+=============================================
 
-Hack the North iOS App
+### update with json url
+http://maodou.io/goals.json
+
+
