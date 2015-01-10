@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Unknown constraint types" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -48,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="3840" y="1218"/>
         </scene>
-        <!--学习小组-->
+        <!--学习目标-->
         <scene sceneID="7Jg-xa-fF2">
             <objects>
-                <viewController id="wck-Cw-fD5" customClass="HNTeamViewController" sceneMemberID="viewController">
+                <viewController id="wck-Cw-fD5" customClass="GoalViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FuF-65-ffu"/>
                         <viewControllerLayoutGuide type="bottom" id="rHe-B7-RLu"/>
@@ -61,7 +62,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="学习小组" id="lSZ-Az-e6o"/>
+                    <navigationItem key="navigationItem" title="学习目标" id="lSZ-Az-e6o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7gC-je-2fT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,11 +190,11 @@
             </objects>
             <point key="canvasLocation" x="3042" y="2446"/>
         </scene>
-        <!--小组-->
+        <!--目标-->
         <scene sceneID="qOo-he-MCg">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q4h-FY-JuH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="小组" image="teamIcon" id="fV0-5X-kSi"/>
+                    <tabBarItem key="tabBarItem" title="目标" image="teamIcon" id="fV0-5X-kSi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="N6w-aQ-Kiq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
