@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2BAE841A606E4E000914C1 /* GoalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BAE831A606E4E000914C1 /* GoalViewController.m */; };
+		3F2BAE871A6072AA000914C1 /* GoalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BAE861A6072AA000914C1 /* GoalDetailViewController.m */; };
 		5DF1441219A039DA002CA204 /* noWifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF1440A19A039DA002CA204 /* noWifi.png */; };
 		5DF1441319A039DA002CA204 /* noWifi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF1440B19A039DA002CA204 /* noWifi@2x.png */; };
 		5DF1441419A039DA002CA204 /* SVStatusHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF1440D19A039DA002CA204 /* SVStatusHUD.m */; };
@@ -107,6 +109,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F2BAE821A606E4E000914C1 /* GoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalViewController.h; sourceTree = "<group>"; };
+		3F2BAE831A606E4E000914C1 /* GoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalViewController.m; sourceTree = "<group>"; };
+		3F2BAE851A6072AA000914C1 /* GoalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalDetailViewController.h; sourceTree = "<group>"; };
+		3F2BAE861A6072AA000914C1 /* GoalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalDetailViewController.m; sourceTree = "<group>"; };
 		5DF1440A19A039DA002CA204 /* noWifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noWifi.png; path = SVStatusHUD/noWifi.png; sourceTree = "<group>"; };
 		5DF1440B19A039DA002CA204 /* noWifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "noWifi@2x.png"; path = "SVStatusHUD/noWifi@2x.png"; sourceTree = "<group>"; };
 		5DF1440C19A039DA002CA204 /* SVStatusHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVStatusHUD.h; path = SVStatusHUD/SVStatusHUD.h; sourceTree = "<group>"; };
@@ -330,7 +336,11 @@
 				AA1FC0AB198F545B00B1B765 /* HNTeamViewController.h */,
 				AA1FC0AC198F545B00B1B765 /* HNTeamViewController.m */,
 				5DF1444119A06B84002CA204 /* HNTeamDetailsViewController.h */,
+				3F2BAE851A6072AA000914C1 /* GoalDetailViewController.h */,
+				3F2BAE861A6072AA000914C1 /* GoalDetailViewController.m */,
 				5DF1444219A06B84002CA204 /* HNTeamDetailsViewController.m */,
+				3F2BAE821A606E4E000914C1 /* GoalViewController.h */,
+				3F2BAE831A606E4E000914C1 /* GoalViewController.m */,
 			);
 			name = "Mentors & Team VCs";
 			sourceTree = "<group>";
@@ -734,8 +744,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAC61BE1991C6870043A6CD /* UIProgressView+AFNetworking.m in Sources */,
+				3F2BAE871A6072AA000914C1 /* GoalDetailViewController.m in Sources */,
 				AAAC61D71992049A0043A6CD /* HNMainTabBarController.m in Sources */,
 				AAAC61B31991C6870043A6CD /* AFURLConnectionOperation.m in Sources */,
+				3F2BAE841A606E4E000914C1 /* GoalViewController.m in Sources */,
 				AA1FC0AA198F53C200B1B765 /* HNMentorsViewController.m in Sources */,
 				AAAC61BC1991C6870043A6CD /* UIButton+AFNetworking.m in Sources */,
 				AA1FC0AD198F545B00B1B765 /* HNTeamViewController.m in Sources */,
